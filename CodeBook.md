@@ -156,3 +156,4 @@ These signals were used to estimate variables of the feature vector for each pat
 [67] "FrequencyBodyBodyAngularVelocityJerkMagnitude.Mean.."             
 [68] "FrequencyBodyBodyAngularVelocityJerkMagnitude.StandardDeviation.."
 
+
