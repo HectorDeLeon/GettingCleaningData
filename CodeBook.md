@@ -51,7 +51,7 @@ These signals were used to estimate variables of the feature vector for each pat
 6. Tidy data set (TidyDataset.txt) reflects all transformations listed above. 
 
 ## List of short variable names as described in original data set
- [1] Subject                      Activity                   
+ [1] Subject                      [2] Activity                   
  [3] tBodyAcc-mean()-X            tBodyAcc-mean()-Y          
  [5] tBodyAcc-mean()-Z            tBodyAcc-std()-X           
  [7] tBodyAcc-std()-Y             tBodyAcc-std()-Z           
