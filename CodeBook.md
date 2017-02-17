@@ -1,6 +1,5 @@
 ## Original Data Source
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+Human Activity Recognition Using Smartphones Dataset / Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
@@ -43,11 +42,11 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 ## Transformations 
-1. Script merges training and testing data set and creates one data set
-2. It extracts meand and standard deviation measurements
-3. Descriptive activity names (Laying, Sitting, Standing, Walking, Walking_downstairs, Walking_Upstairs) are linked to each measurement. 
-4. Descriptive variable names are used for all variables (see below)
-5. Averages of each variable for each activity and each subject were generated
+1. Script merged training and testing data set and created one data set cointaing all records. 
+2. Script extracted means and standard deviation measurements only. 
+3. Descriptive activity names (Laying, Sitting, Standing, Walking, Walking_downstairs, Walking_Upstairs) were linked to each measurement. 
+4. Descriptive variable names (spelled out names) were used for all variables (see below).
+5. Averages of each variable for each activity and each subject were generated.
 
 ## List of variables with descriptive names 
  [1] "Subject"                                                          
