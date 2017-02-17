@@ -48,7 +48,7 @@ fBodyGyroJerkMag
 4. Descriptive variable names (spelled out names) were used for all variables (see below).
 5. Averages of each variable for each activity and each subject were generated.
 5. Data units for all variables remain unmodified.
-6. Tidy data set (tidyData3) reflects all transformations listed above. 
+6. Tidy data set (TidyDataset.txt) reflects all transformations listed above. 
 
 ## List of short variable names as described in original data set
  [1] Subject                     Activity                   
