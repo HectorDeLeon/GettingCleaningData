@@ -1,6 +1,6 @@
 # Getting and Cleaning Data / Course Project
 
-## Instructions (modified from Assignment Instructions)
+## Instructions #(modified from Assignment Instructions)
 
 ## Goal
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The project's goal is to prepare tidy data that can be used for later analysis. The repo you create explains how all of the scripts work and how they are connected. You will be graded by your peers on a series of yes/no questions related to the project.
