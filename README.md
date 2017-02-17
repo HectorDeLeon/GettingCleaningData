@@ -10,10 +10,9 @@ The purpose of this project is to demonstrate your ability to collect, work with
 4. The README that explains the analysis files is clear and understandable.
 5. The work submitted for this project is the work of the student who submitted it.
 
-## Files to submit 
-You will be required to submit: 
+## Files to submit
 1. A tidy data set as described below.
-2. A link to a Github repository with your script for performing the analysis.
+2. link to a Github repository with your script for performing the analysis.
 3. A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
 4. A README.md file should be included in the repo with your scripts. 
 5. An R script called run.analysis.R that creates a tidy data set as described below.   
@@ -28,6 +27,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## R Script features
 You should create one R script called run_analysis.R that does the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
