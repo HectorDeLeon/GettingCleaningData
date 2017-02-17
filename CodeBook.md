@@ -70,7 +70,7 @@ These signals were used to estimate variables of the feature vector for each pat
 [17] tBodyAccJerk-mean()-Z      
 [18] tBodyAccJerk-std()-X       
 [19] tBodyAccJerk-std()-Y   
-[200 tBodyAccJerk-std()-Z       
+[20] tBodyAccJerk-std()-Z       
 [21] tBodyGyro-mean()-X         
 [22] tBodyGyro-mean()-Y         
 [23] tBodyGyro-mean()-Z         
@@ -81,25 +81,44 @@ These signals were used to estimate variables of the feature vector for each pat
 [28] tBodyGyroJerk-mean()-Y     
 [29] tBodyGyroJerk-mean()-Z    
 [30] tBodyGyroJerk-std()-X      
-[31] tBodyGyroJerk-std()-Y        tBodyGyroJerk-std()-Z      
-[33] tBodyAccMag-mean()           tBodyAccMag-std()          
-[35] tGravityAccMag-mean()        tGravityAccMag-std()       
-[37] tBodyAccJerkMag-mean()       tBodyAccJerkMag-std()      
-[39] tBodyGyroMag-mean()          tBodyGyroMag-std()         
-[41] tBodyGyroJerkMag-mean()      tBodyGyroJerkMag-std()     
-[43] fBodyAcc-mean()-X            fBodyAcc-mean()-Y          
-[45] fBodyAcc-mean()-Z            fBodyAcc-std()-X           
-[47] fBodyAcc-std()-Y             fBodyAcc-std()-Z           
-[49] fBodyAccJerk-mean()-X        fBodyAccJerk-mean()-Y      
-[51] fBodyAccJerk-mean()-Z        fBodyAccJerk-std()-X       
-[53] fBodyAccJerk-std()-Y         fBodyAccJerk-std()-Z       
-[55] fBodyGyro-mean()-X           fBodyGyro-mean()-Y         
-[57] fBodyGyro-mean()-Z           fBodyGyro-std()-X          
-[59] fBodyGyro-std()-Y            fBodyGyro-std()-Z          
-[61] fBodyAccMag-mean()           fBodyAccMag-std()          
-[63] fBodyBodyAccJerkMag-mean()   fBodyBodyAccJerkMag-std()  
-[65] fBodyBodyGyroMag-mean()      fBodyBodyGyroMag-std()     
-[67] fBodyBodyGyroJerkMag-mean()  fBodyBodyGyroJerkMag-std() 
+[31] tBodyGyroJerk-std()-Y       
+[32] tBodyGyroJerk-std()-Z      
+[33] tBodyAccMag-mean()   
+[34] tBodyAccMag-std()          
+[35] tGravityAccMag-mean()     
+[36] tGravityAccMag-std()       
+[37] tBodyAccJerkMag-mean() 
+[38] tBodyAccJerkMag-std()      
+[39] tBodyGyroMag-mean()      
+[40] tBodyGyroMag-std()         
+[41] tBodyGyroJerkMag-mean()   
+[42] tBodyGyroJerkMag-std()     
+[43] fBodyAcc-mean()-X     
+[44] fBodyAcc-mean()-Y          
+[45] fBodyAcc-mean()-Z    
+[46] fBodyAcc-std()-X           
+[47] fBodyAcc-std()-Y    
+[48] fBodyAcc-std()-Z           
+[49] fBodyAccJerk-mean()-X 
+[50] fBodyAccJerk-mean()-Y      
+[51] fBodyAccJerk-mean()-Z 
+[52] fBodyAccJerk-std()-X       
+[53] fBodyAccJerk-std()-Y  
+[54] fBodyAccJerk-std()-Z       
+[55] fBodyGyro-mean()-X   
+[56] fBodyGyro-mean()-Y         
+[57] fBodyGyro-mean()-Z  
+[58] fBodyGyro-std()-X          
+[59] fBodyGyro-std()-Y    
+[60] fBodyGyro-std()-Z          
+[61] fBodyAccMag-mean()    
+[62] fBodyAccMag-std()          
+[63] fBodyBodyAccJerkMag-mean()  
+[64] fBodyBodyAccJerkMag-std()  
+[65] fBodyBodyGyroMag-mean()      
+[66] fBodyBodyGyroMag-std()     
+[67] fBodyBodyGyroJerkMag-mean()  
+[68] fBodyBodyGyroJerkMag-std() 
 
 ## List of descriptive variable names used in updated data set  
  [1] "Subject"                                                          
