@@ -1,4 +1,4 @@
-# Original Data Source
+## Original Data Source
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
@@ -21,7 +21,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
+These signals were used to estimate variables of the feature vector for each pattern: 
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
@@ -41,3 +41,82 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+
+## Transformations 
+1. Script merges training and testing data set and creates one data set
+2. It extracts meand and standard deviation measurements
+3. Descriptive activity names (Laying, Sitting, Standing, Walking, Walking_downstairs, Walking_Upstairs) are linked to each measurement. 
+4. Descriptive variable names are used for all variables (see below)
+5. Averages of each variable for each activity and each subject were generated
+
+## List of variables with descriptive names 
+ [1] "Subject"                                                          
+ [2] "Activity"                                                         
+ [3] "TimeBodyAcceleration.Mean...X"                                    
+ [4] "TimeBodyAcceleration.Mean...Y"                                    
+ [5] "TimeBodyAcceleration.Mean...Z"                                    
+ [6] "TimeBodyAcceleration.StandardDeviation...X"                       
+ [7] "TimeBodyAcceleration.StandardDeviation...Y"                       
+ [8] "TimeBodyAcceleration.StandardDeviation...Z"                       
+ [9] "TimeGravityAcceleration.Mean...X"                                 
+[10] "TimeGravityAcceleration.Mean...Y"                                 
+[11] "TimeGravityAcceleration.Mean...Z"                                 
+[12] "TimeGravityAcceleration.StandardDeviation...X"                    
+[13] "TimeGravityAcceleration.StandardDeviation...Y"                    
+[14] "TimeGravityAcceleration.StandardDeviation...Z"                    
+[15] "TimeBodyAccelerationJerk.Mean...X"                                
+[16] "TimeBodyAccelerationJerk.Mean...Y"                                
+[17] "TimeBodyAccelerationJerk.Mean...Z"                                
+[18] "TimeBodyAccelerationJerk.StandardDeviation...X"                   
+[19] "TimeBodyAccelerationJerk.StandardDeviation...Y"                   
+[20] "TimeBodyAccelerationJerk.StandardDeviation...Z"                   
+[21] "TimeBodyAngularVelocity.Mean...X"                                 
+[22] "TimeBodyAngularVelocity.Mean...Y"                                 
+[23] "TimeBodyAngularVelocity.Mean...Z"                                 
+[24] "TimeBodyAngularVelocity.StandardDeviation...X"                    
+[25] "TimeBodyAngularVelocity.StandardDeviation...Y"                    
+[26] "TimeBodyAngularVelocity.StandardDeviation...Z"                    
+[27] "TimeBodyAngularVelocityJerk.Mean...X"                             
+[28] "TimeBodyAngularVelocityJerk.Mean...Y"                             
+[29] "TimeBodyAngularVelocityJerk.Mean...Z"                             
+[30] "TimeBodyAngularVelocityJerk.StandardDeviation...X"                
+[31] "TimeBodyAngularVelocityJerk.StandardDeviation...Y"                
+[32] "TimeBodyAngularVelocityJerk.StandardDeviation...Z"                
+[33] "TimeBodyAccelerationMagnitude.Mean.."                             
+[34] "TimeBodyAccelerationMagnitude.StandardDeviation.."                
+[35] "TimeGravityAccelerationMagnitude.Mean.."                          
+[36] "TimeGravityAccelerationMagnitude.StandardDeviation.."             
+[37] "TimeBodyAccelerationJerkMagnitude.Mean.."                         
+[38] "TimeBodyAccelerationJerkMagnitude.StandardDeviation.."            
+[39] "TimeBodyAngularVelocityMagnitude.Mean.."                          
+[40] "TimeBodyAngularVelocityMagnitude.StandardDeviation.."             
+[41] "TimeBodyAngularVelocityJerkMagnitude.Mean.."                      
+[42] "TimeBodyAngularVelocityJerkMagnitude.StandardDeviation.."         
+[43] "FrequencyBodyAcceleration.Mean...X"                               
+[44] "FrequencyBodyAcceleration.Mean...Y"                               
+[45] "FrequencyBodyAcceleration.Mean...Z"                               
+[46] "FrequencyBodyAcceleration.StandardDeviation...X"                  
+[47] "FrequencyBodyAcceleration.StandardDeviation...Y"                  
+[48] "FrequencyBodyAcceleration.StandardDeviation...Z"                  
+[49] "FrequencyBodyAccelerationJerk.Mean...X"                           
+[50] "FrequencyBodyAccelerationJerk.Mean...Y"                           
+[51] "FrequencyBodyAccelerationJerk.Mean...Z"                           
+[52] "FrequencyBodyAccelerationJerk.StandardDeviation...X"              
+[53] "FrequencyBodyAccelerationJerk.StandardDeviation...Y"              
+[54] "FrequencyBodyAccelerationJerk.StandardDeviation...Z"              
+[55] "FrequencyBodyAngularVelocity.Mean...X"                            
+[56] "FrequencyBodyAngularVelocity.Mean...Y"                            
+[57] "FrequencyBodyAngularVelocity.Mean...Z"                            
+[58] "FrequencyBodyAngularVelocity.StandardDeviation...X"               
+[59] "FrequencyBodyAngularVelocity.StandardDeviation...Y"               
+[60] "FrequencyBodyAngularVelocity.StandardDeviation...Z"               
+[61] "FrequencyBodyAccelerationMagnitude.Mean.."                        
+[62] "FrequencyBodyAccelerationMagnitude.StandardDeviation.."           
+[63] "FrequencyBodyBodyAccelerationJerkMagnitude.Mean.."                
+[64] "FrequencyBodyBodyAccelerationJerkMagnitude.StandardDeviation.."   
+[65] "FrequencyBodyBodyAngularVelocityMagnitude.Mean.."                 
+[66] "FrequencyBodyBodyAngularVelocityMagnitude.StandardDeviation.."    
+[67] "FrequencyBodyBodyAngularVelocityJerkMagnitude.Mean.."             
+[68] "FrequencyBodyBodyAngularVelocityJerkMagnitude.StandardDeviation.."
+
+
