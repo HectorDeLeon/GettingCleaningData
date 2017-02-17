@@ -48,7 +48,7 @@ fBodyGyroJerkMag
 4. Descriptive variable names (spelled out names) were used for all variables (see below).
 5. Averages of each variable for each activity and each subject were generated.
 
-## List of variable names in original data
+## List of short variable names as described in original data set
  [1] Subject                     Activity                   
  [3] tBodyAcc-mean()-X           tBodyAcc-mean()-Y          
  [5] tBodyAcc-mean()-Z           tBodyAcc-std()-X           
@@ -84,7 +84,7 @@ fBodyGyroJerkMag
 [65] fBodyBodyGyroMag-mean()     fBodyBodyGyroMag-std()     
 [67] fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std() 
 
-## List of variables labeles with new descriptive names 
+## List of descriptive variable names used in updated data set  
  [1] "Subject"                                                          
  [2] "Activity"                                                         
  [3] "TimeBodyAcceleration.Mean...X"                                    
