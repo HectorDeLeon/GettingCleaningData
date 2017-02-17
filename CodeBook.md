@@ -43,7 +43,7 @@ fBodyGyroJerkMag
 
 ## Transformations 
 1. Script merged training and testing data set and created one data set cointaing all records. 
-2. Script extracted means and standard deviation measurements only. 
+2. Script extracted means and standard deviation measurements from orininal data sets. 
 3. Descriptive activity names (Laying, Sitting, Standing, Walking, Walking_downstairs, Walking_Upstairs) were linked to each measurement. 
 4. Descriptive variable names (spelled out names) were used for all variables (see below).
 5. Averages of each variable for each activity and each subject were generated.
