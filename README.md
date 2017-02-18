@@ -39,10 +39,9 @@ Tidy dataset: TidyDataset.txt
 
 ## Writing / Reading TidyDataset.txt file
 
-The TidyDataset.txt output file was written as a .txt file in R as follows:
+The TidyDataset.txt output file was written as a .txt file in R as follows:  
 write.table(tidyData3, file = "TidyDataset.txt", row.names = FALSE)
 
-The TidyDataset.txct can be read with the following code 
-ReviewData <- read.table("TidyDataset.txt", header = T)
+The TidyDataset.txct can be read with the following code:  
+ReviewData <- read.table("TidyDataset.txt", header = T)  
 View(ReviewData)
-
