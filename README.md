@@ -37,7 +37,7 @@ You should create one R script called run_analysis.R that does the following:
 ## Output 
 Tidy dataset: TidyDataset.txt
 
-## Writing / Reading TidyDataset.txt file
+## Writing / Reading the TidyDataset.txt output file
 
 The TidyDataset.txt output file was written as a .txt file in R as follows:  
 write.table(tidyData3, file = "TidyDataset.txt", row.names = FALSE)
