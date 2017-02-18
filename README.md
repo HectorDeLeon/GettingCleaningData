@@ -43,5 +43,5 @@ The TidyDataset.txt output file was written as a .txt file in R as follows:
 write.table(tidyData3, file = "TidyDataset.txt", row.names = FALSE)
 
 The TidyDataset.txt file can be read with the following code:  
-ReviewData <- read.table("TidyDataset.txt", header = T)  
+ReviewData <- read.table("TidyDataset.txt", header = TRUE)  
 View(ReviewData)
