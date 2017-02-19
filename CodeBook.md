@@ -41,7 +41,7 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
-## Transformations / Modifications introduced to original dataset 
+## Modifications introduced to original dataset 
 
 1. Script merged training and testing data set and created one data set cointaing all records. 
 2. Means and standard deviation measurements were extracted from original data sets. 
