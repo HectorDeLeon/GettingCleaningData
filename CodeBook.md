@@ -1,7 +1,7 @@
 ## Original Data Source
 Human Activity Recognition Using Smartphones Dataset / Version 1.0 / www.smartlab.ws 
 ==================================================================
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Original Dataset credits: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
@@ -41,7 +41,8 @@ These signals were used to estimate variables of the feature vector for each pat
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
-## Transformations 
+## Transformations / Modifications introduced to original dataset 
+
 1. Script merged training and testing data set and created one data set cointaing all records. 
 2. Means and standard deviation measurements were extracted from original data sets. 
 3. Descriptive activity names (Laying, Sitting, Standing, Walking, Walking_downstairs, Walking_Upstairs) were linked to each measurement. 
